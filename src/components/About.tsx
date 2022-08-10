@@ -9,35 +9,31 @@ export const About = () => {
     <Wrapper>
       <Me src={me} alt="NT" height="200px" width="200px" />
       <Greeting>
-        <Wave>👋</Wave> Nice to meet you, I'm Nicholas
+        <Wave>👋</Wave> Nice to meet you, I'm Hao Chen
       </Greeting>
       <Body>
-        I'm a 2nd year Computer Science student at the University of Waterloo and currently interning as a Software Engineer
-        at <Link href="https://www.wealthsimple.com/" bgColour="#cae8dd">Wealthsimple</Link>.
+        I'm a rising junior at Cornell University studying Information Science and minoring in Game Design.
+        Currently, I'm assisting research 
+        at <Link href="https://www.scifilab.org/" bgColour="#cae8dd">Smart Computer Interfaces for Future Interactions (Sci-Fi) Lab</Link>
+        and developing watchfaces at <Link href="https://rebble.io/" bgColour="#cae8dd">Rebble</Link>
         <br />
         <br />
-        I was previously a Frontend Engineer Intern on the the Retailer Growth team at <Link href="https://www.faire.com/" bgColour="#cae8dd">Faire</Link>. 
-        I'm currently seeking <b>Fall 2022</b> internships!
+        I was previously a Business and Design subteam member 
+        at <Link href="https://marsrover.engineering.cornell.edu/" bgColour="#cae8dd">Cornell Mars Rover</Link>. 
+        I also shot videos for 
+        <Link href="https://mp.weixin.qq.com/s/PyZcnPH3bsk2x0ZWWjukUA/" bgColour="#cae8dd">my high school official account </Link>.
         <br />
         <br />
-        From connecting university students through{" "}
-        <Link href="https://omegu.herokuapp.com/">Wave Chat</Link>, to making
-        job hunting easier with{" "}
-        <Link href="https://devpost.com/software/applyai">ApplyAI</Link>, to
-        tracking grocery store lineups with{" "}
-        <Link href="https://devpost.com/software/lynz">Lynz</Link>, I'm always
-        looking to tackle interesting challenges.
+        From {" "} <Link href="https://github.com/ChenTsizhen/pngToBit">converting png to bitmap</Link>, 
+        to {" "} <Link href="https://github.com/ChenTsizhen/vocalSeg">separating vocal from instrumental</Link>, 
+        I'm always looking to tackle interesting challenges, especially in the filmmaking category.
         <br />
         <br />
-        <Hobbies />I started{" "}
-        <Link href="https://www.youtube.com/c/NicholasT/" bgColour="#cae8dd">my channel </Link> in
-        May 2020 to document my university experience, but now make videos about
-        software engineering/tech and my journey as a CS student trying to
-        figure out life.
+        <Hobbies /> 
+        Outside school, I'm learning to develop 2D games and make 
+        <Link href="https://www.youtube.com/channel/UCWv8waPSuL-CgVRzD9qhv4Q">YouTube videos</Link>. 
+        In my free time, you can find me doing choreography, riding a skateboard, reading detective novels, or learning the piano.
         <br />
-        <br />
-        Got an exciting opportunity or want to learn more about me?{" "}
-        <Link href="https://www.linkedin.com/in/nicholastao">Let's chat.</Link>
       </Body>
     </Wrapper>
   );
