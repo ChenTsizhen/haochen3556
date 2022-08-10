@@ -8,13 +8,13 @@ export const Header = () => {
   return (
     <Wrapper>
       <a href="/">
-        <Initials src={initials} alt="NT" />
+        <Initials src={initials} alt="HC" />
       </a>
       <Icons>
-        <a href="https://www.github.com/nicholas-tao">
+        <a href="https://github.com/ChenTsizhen">
           <Icon icon={faGithub} size="lg" color="black" />
         </a>
-        <a href="https://www.linkedin.com/in/nicholastao">
+        <a href="https://www.linkedin.com/in/hao-chen-718529218/">
           <Icon icon={faLinkedinIn} size="lg" color="black" />
         </a>
       </Icons>

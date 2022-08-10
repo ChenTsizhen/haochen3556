@@ -2,7 +2,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import me from "../assets/img/me.jpg";
-import { Hobbies } from "./Hobbies";
 
 export const About = () => {
   return (
