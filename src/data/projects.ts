@@ -2,7 +2,7 @@ export const projects: IProject[] = [
   {
     name: "Anti-PUA",
     tools: ["OCR", "BERT", "AWS", "Flask", "React"],
-    image: "https://i.ibb.co/hKGygtx/wave.jpg",
+    image: "https://ibb.co/BnV2YNv",
     description:
       "Web app that identifies potential moral coercion through chat history.",
     link: "https://devpost.com/software/team-60",
