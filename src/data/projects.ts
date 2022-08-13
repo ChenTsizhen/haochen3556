@@ -12,7 +12,7 @@ export const projects: IProject[] = [
     award: "Winner at Unihack 2021",
   },
   {
-    name: "Plume",
+    name: "Plume (Team-based)",
     tools: ["Figma", "Ae", "Logic", "LibGDX"],
     image: plume,
     description:
