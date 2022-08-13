@@ -1,8 +1,11 @@
+import antipua from "../assets/img/antipua.jpg";
+import plume from "../assets/img/plume.jpg";
+
 export const projects: IProject[] = [
   {
     name: "Anti-PUA",
     tools: ["OCR", "BERT", "AWS", "Flask", "React"],
-    image: "https://ibb.co/BnV2YNv",
+    image: antipua,
     description:
       "Web app that identifies potential moral coercion through chat history.",
     link: "https://devpost.com/software/team-60",
@@ -11,7 +14,7 @@ export const projects: IProject[] = [
   {
     name: "Plume",
     tools: ["Figma", "Ae", "Logic", "LibGDX"],
-    image: "https://i.ibb.co/k4p8bnF/applyai.jpg",
+    image: plume,
     description:
       "Desktop puzzle/platform/shooting game to reunite NPCs.",
     link: "https://gdiac.cs.cornell.edu/temp/showcase/gallery/plume/",
