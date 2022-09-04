@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <Wrapper>
       <p>Made with ❤️ by Hao Chen &copy; 2022 </p>
-      <LastUpdated>Last updated: August 2022</LastUpdated>
+      <LastUpdated>Last updated: September 2022</LastUpdated>
     </Wrapper>
   );
 };
@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 5px;
 
   @media only screen and (max-width: 600px) {
     margin-top: 40px;

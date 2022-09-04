@@ -1,8 +1,10 @@
 import React from "react";
+
 import styled from "styled-components";
 import { Header } from "./components/Header";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
+import { Button } from "./components/Button";
 import { Footer } from "./components/Footer";
 import "./fonts/fonts.css";
 
@@ -12,6 +14,13 @@ export const App = () => {
       <Header />
       <About />
       <Projects />
+      {/* <Button 
+      color="white"
+      height = "50px"
+      onClick={() => console.log("clicked")}
+      width = "200px"
+      children = "Shhh...Don't Click"
+      /> */}
       <Footer />
     </Container>
   );

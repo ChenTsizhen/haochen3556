@@ -78,7 +78,7 @@ const About = styled.div`
 `;
 
 const Pill = styled.p`
-  background-color: #cae8dd;
+  background-color: #C7E4EE;
   margin: 0px 5px 0px 0px;
   padding: 1px 5px;
   border-radius: 15%;
