@@ -8,28 +8,29 @@ export const About = () => {
     <Wrapper>
       <Me src={me} alt="NT" height="200px" width="200px" />
       <Greeting>
-        <Wave>👋</Wave> Nice to meet you, I'm Hao Chen
+        <Wave>👋</Wave> Nice to meet you. I'm Hao Chen.
       </Greeting>
       <Body>
-        I'm a rising junior at Cornell University studying Information Science and minoring in Game Design.
+        I'm a junior at Cornell University studying Information Science and Game Design.
         Currently, I'm assisting research
-        at <Link href="https://www.scifilab.org/" bgColour="#cae8dd">Smart Computer Interfaces for Future Interactions (SciFi) Lab </Link> and 
-        developing watchfaces at <Link href="https://rebble.io/">Rebble</Link>.
+        at <Link href="https://www.scifilab.org/" bgColour="#C7E4EE">Smart Computer Interfaces for Future Interactions (SciFi) Lab </Link> and 
+        developing a smartwatch game at <Link href="https://rebble.io/">Rebble</Link>.
         <br />
         <br />
-        I was previously a Business and Design subteam member 
-        at <Link href="https://marsrover.engineering.cornell.edu/" bgColour="#cae8dd">Cornell Mars Rover</Link>. 
-        I also shot videos for my high school official account.
+        I'm also a Business and Design subteam member 
+        at <Link href="https://marsrover.engineering.cornell.edu/" bgColour="#C7E4EE">Cornell Mars Rover</Link>. 
+        From {" "} <Link href="https://github.com/ChenTsizhen/pngToBit">image filters</Link>, 
+        to {" "} <Link href="https://github.com/ChenTsizhen/vocalSeg">music generators</Link>, 
+        I'm always looking to tackle interesting challenges, especially in the filmmaking or game category.
         <br />
         <br />
-        From {" "} <Link href="https://github.com/ChenTsizhen/pngToBit">converting png to bitmap</Link>, 
-        to {" "} <Link href="https://github.com/ChenTsizhen/vocalSeg">separating vocal from instrumental</Link>, 
-        I'm always looking to tackle interesting challenges, especially in the filmmaking category.
-        <br />
-        <br />
-        Outside school, I'm learning to develop 2D games and 
-        make <Link href="https://www.youtube.com/channel/UCWv8waPSuL-CgVRzD9qhv4Q" bgColour="#cae8dd">YouTube</Link> videos. 
+        Outside school, I'm learning to
+        run a <Link href="https://www.youtube.com/channel/UCWv8waPSuL-CgVRzD9qhv4Q" bgColour="#C7E4EE">YouTube</Link> channel. 
         In my free time, you can find me doing choreography, riding a skateboard, reading detective novels, or learning the piano.
+        <br />
+        <br />
+        Got an exciting opportunity or want to learn more about me? 
+        Let's chat through: <Link>hc732@cornell.edu</Link>
         <br />
       </Body>
     </Wrapper>
@@ -78,7 +79,7 @@ export const Link = styled.a<{bgColour?: string}>`
   text-decoration: none;
   color: black;
   :hover {
-    color: #3aa17b;
+    color:#4D4DFF;
   };
   background-color: ${props => props.bgColour};
 `;
