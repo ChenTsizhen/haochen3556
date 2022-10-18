@@ -17,16 +17,16 @@ export const About = () => {
         developing a smartwatch game at <Link href="https://rebble.io/">Rebble</Link>.
         <br />
         <br />
-        I'm also a Business and Design subteam member 
+        I'm also a web developer and graphic designer 
         at <Link href="https://marsrover.engineering.cornell.edu/" bgColour="#C7E4EE">Cornell Mars Rover</Link>. 
         From {" "} <Link href="https://github.com/ChenTsizhen/pngToBit">image filters</Link>, 
         to {" "} <Link href="https://github.com/ChenTsizhen/vocalSeg">music generators</Link>, 
-        I'm always looking to tackle interesting challenges, especially in the filmmaking or game category.
+        I'm always looking to tackle interesting challenges, especially in the filmmaking or gaming category.
         <br />
         <br />
         Outside school, I'm learning to
         run a <Link href="https://www.youtube.com/channel/UCWv8waPSuL-CgVRzD9qhv4Q" bgColour="#C7E4EE">YouTube</Link> channel. 
-        In my free time, you can find me doing choreography, riding a skateboard, reading detective novels, or learning the piano.
+        In my free time, you can find me 💃 doing choreography, 🛹 riding a skateboard, 📒 reading detective novels, 🎹 or learning the piano.
         <br />
         <br />
         Got an exciting opportunity or want to learn more about me? 
